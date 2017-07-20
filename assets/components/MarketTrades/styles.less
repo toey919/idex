@@ -1,0 +1,26 @@
+@import "../../style/mixins.less";
+
+@enter-duration: 500ms;
+@leave-duration: 300ms;
+
+.market-trade-row-enter {
+  .darken-row();
+}
+
+.market-trade-row-enter.market-trade-row-enter-active {
+  .regular-row();
+  td { 
+    .transition(@enter-duration, ease);
+  }
+}
+
+.market-trade-row-leave {
+  .regular-row();
+}
+
+.market-trade-row-leave.market-trade-row-leave-active {
+  .darken-row();
+  td {
+    .transition(@leave-duration, ease);
+  }
+}

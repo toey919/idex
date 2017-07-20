@@ -1,0 +1,11 @@
+{
+  "host": "0.0.0.0",
+  "port": 8082,
+  "rpc": "https://ropsten.infura.io/aR7WPNCrZhhnYRnn8yRT",
+  "walletSalt": "cXV3ZKjE4hfwRrNa3aAOKH0Uq7bYFVJ0hLsr8CkdQxZC8Rc9UqeY6f9VDfnqJxrsX9fF7W5gCcWewKD7DF1RlQ==",
+  "mysql": {
+    "database": "v1",
+    "user": "root",
+    "password": "password"
+  }
+}

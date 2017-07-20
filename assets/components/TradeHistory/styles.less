@@ -1,0 +1,10 @@
+@import "../../style/variables.less";
+
+.scroller {
+  &::-webkit-scrollbar-button {
+    background: @header-color;
+  }
+  &::-webkit-scrollbar-track {
+    background: lighten(@header-color, 20%);
+  }
+}

@@ -1,0 +1,37 @@
+@import "../../style/mixins.less";
+
+@enter-duration: 500ms;
+@leave-duration: 300ms;
+
+.sell-row-enter {
+  .darken-row();
+}
+
+.sell-row-enter.sell-row-enter-active {
+  .regular-row();
+  td { 
+    .transition(@enter-duration, ease);
+  }
+}
+
+.sell-row-enter-partial {
+  .darken-row();
+}
+
+.sell-row-enter-partial.sell-row-enter-active-partial {
+  .regular-row();
+  td { 
+    .transition(@enter-duration, ease);
+  }
+}
+
+.sell-row-leave {
+  .regular-row();
+}
+
+.sell-row-leave.sell-row-leave-active {
+  .darken-row();
+  td {
+    .transition(@leave-duration, ease);
+  }
+}

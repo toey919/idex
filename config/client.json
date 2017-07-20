@@ -1,0 +1,9 @@
+{
+  "socketPath": "/ws",
+  "env": "development",
+  "hostname": "dev.turbulent.space",
+  "protocol": "http:",
+  "port": 8082,
+  "whitelist": false,
+  "rpcToken": "aR7WPNCrZhhnYRnn8yRT"
+}

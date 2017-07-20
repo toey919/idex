@@ -1,0 +1,43 @@
+@import "../../style/mixins.less";
+
+@enter-duration: 500ms;
+@leave-duration: 300ms;
+
+.buy-row-enter {
+	.darken-row();
+}
+
+.wt-scroller table {
+	table-layout: fixed;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.buy-row-enter.buy-row-enter-active {
+	.regular-row();
+	td {
+		.transition(@enter-duration, ease);
+	}
+}
+
+.buy-row-enter-partial {
+	.darken-row();
+}
+
+.buy-row-enter-partial.buy-row-enter-active-partial {
+	.regular-row();
+	td {
+		.transition(@enter-duration, ease);
+	}
+}
+
+.buy-row-leave {
+	.regular-row();
+}
+
+.buy-row-leave.buy-row-leave-active {
+	.darken-row();
+	td {
+		.transition(@leave-duration, ease);
+	}
+}

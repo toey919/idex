@@ -1,0 +1,78 @@
+@import "../../style/variables.less";
+@import "../../style/mixins.less";
+
+@panel-background: @table-header;
+@border-color: @header-color;
+@border-width: 2px;
+@panel-width: 33.7%;
+@panel-width-mobile: 50%;
+@panel-height: 200px;
+@panel-offset: 0px;
+@panel-left-offset: @panel-offset;
+@panel-bottom-offset: @panel-offset;
+@panel-radius: 5px;
+@panel-header-padding: 5px;
+@panel-body-padding: 10px;
+@panel-text-color: white;
+@panel-header-size: 1em;
+@panel-header-height: 30px;
+@panel-border-radius: @panel-radius @panel-radius @panel-radius @panel-radius;
+@panel-animation-enter-duration: 500ms;
+@panel-animation-leave-duration: 300ms;
+@panel-animation-enter-type: ease-in;
+@panel-animation-leave-type: ease-out;
+@panel-animation-target: all;
+
+.animate(@duration, @type) {
+  transition: @panel-animation-target @duration @type; 
+}
+
+.ethereum-panel {
+  bottom: -1*(@panel-height - @panel-header-height);
+  position: fixed;
+  left: @panel-left-offset;
+  width: @panel-width;
+  .mobile({
+    width: @panel-width-mobile;
+  });
+  height: @panel-height;
+  background-color: @panel-background;
+  border: @border-width solid @border-color;
+  border-radius: @panel-border-radius;
+  color: @panel-text-color;
+  .animate(@panel-animation-leave-duration, @panel-animation-enter-type);
+}
+
+.ethereum-panel-body {
+  padding: @panel-body-padding;
+}
+
+.ethereum-panel-header {
+  width: 100%;
+  height: @panel-header-height;
+  background-color: @border-color;
+  padding: @panel-header-padding;
+  font-size: @panel-header-size;
+}
+
+.ethereum-panel.ethereum-panel-active {
+  bottom: 0px;
+  .animate(@panel-animation-enter-duration, @panel-animation-enter-type);
+}
+
+.ethereum-panel-link {
+  font-size: 1.1em;
+  word-break: break-all;
+  color: white;
+  &:hover, &:visited, &:active {
+    color: white;
+  }
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5px;
+}
+
+.ethereum-panel-transaction-details {
+  padding: 0px 10px 0px 10px;
+}

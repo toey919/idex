@@ -1,0 +1,1868 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+  <!--<![endif]-->
+  <!-- BEGIN HEAD -->
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Liquith</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/uniform/css/uniform.default.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <link href="assets/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
+    <!-- BEGIN THEME GLOBAL STYLES -->
+    <link href="assets/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME GLOBAL STYLES -->
+    <!-- BEGIN THEME LAYOUT STYLES -->
+    <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME LAYOUT STYLES -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- WEMBLO TECHNOLGIES STYLES -->
+    <link href="wemblo.css" rel="stylesheet" type="text/css" />
+  </head>
+  <!-- END HEAD -->
+
+  <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white page-full-width">
+    <!-- BEGIN HEADER -->
+    <div class="page-header navbar navbar-fixed-top">
+      <!-- BEGIN HEADER INNER -->
+      <div class="page-header-inner ">
+        <!-- BEGIN LOGO -->
+        <div class="page-logo">
+          <a href="index-1.html">
+            <img src="assets/images/logo.png" alt="logo" class="logo-default" /> </a>
+        </div>
+        <!-- END LOGO -->
+        <!-- BEGIN MEGA MENU -->
+        <!-- DOC: Remove "hor-menu-light" class to have a horizontal menu with theme background instead of white background -->
+        <!-- DOC: This is desktop version of the horizontal menu. The mobile version is defined(duplicated) in the responsive menu below along with sidebar menu. So the horizontal menu has 2 seperate versions -->
+        <div class="hor-menu">
+          <ul class="nav navbar-nav margin-none">
+            <li class="classic-menu-dropdown">
+              <a href="javascript:;" id="sidebar"> Markets <i class="fa fa-angle-down"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- END MEGA MENU -->
+        <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+<!--        <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"> </a>-->
+        <!-- END RESPONSIVE MENU TOGGLER -->
+        <!-- BEGIN TOP NAVIGATION MENU -->
+        <div class="top-menu">
+          <ul class="nav navbar-nav pull-right">
+            <!-- BEGIN USER LOGIN DROPDOWN -->
+            <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+            <li class="wt-li dropdown dropdown-user">
+              <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                <span> Trade </span><i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-default">
+                <li>
+                  <a href="index-1.html"> Exchange </a>
+                </li>
+                <li>
+                  <a href="index-2.html"> Margin </a>
+                </li>
+                <li>
+                  <a href="index-3.html"> Lending </a>
+                </li>
+              </ul>
+            </li>
+            <li class="wt-li dropdown dropdown-user">
+              <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                <span> Account </span>
+                <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-default">
+                <li>
+                  <a href="index-6.html"> Orders </a>
+                </li>
+                <li>
+                  <a href="index-5.html"> Balances </a>
+                </li>
+                <li>
+                  <a href="index-4.html"> Transfers </a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown dropdown-user">
+              <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                <span class="username"> Settings </span>
+                <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-default">
+                <li>
+                  <a href="index-1.html">
+                    <i class="icon-user"></i> My Profile </a>
+                </li>
+                <li>
+                  <a href="index-1.html">
+                    <i class="icon-calendar"></i> My Calendar </a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown dropdown-user">
+              <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                <i class="fa fa-question-circle"></i>
+                <span class="username username-hide-on-mobile"> Help </span>
+                <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-default">
+                <li>
+                  <a href="index-1.html">
+                    <i class="icon-user"></i> My Profile </a>
+                </li>
+                <li>
+                  <a href="index-1.html">
+                    <i class="icon-calendar"></i> My Calendar </a>
+                </li>
+                <li>
+                  <a href="index-1.html">
+                    <i class="icon-envelope-open"></i> My Inbox
+                    <span class="badge badge-danger"> 3 </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="index-1.html">
+                    <i class="icon-rocket"></i> My Tasks
+                    <span class="badge badge-success"> 7 </span>
+                  </a>
+                </li>
+                <li class="divider"> </li>
+                <li>
+                  <a href="index-1.html">
+                    <i class="icon-lock"></i> Lock Screen </a>
+                </li>
+                <li>
+                  <a href="index-1.html">
+                    <i class="icon-key"></i> Log Out </a>
+                </li>
+              </ul>
+            </li>
+            <!-- END USER LOGIN DROPDOWN -->
+            <!-- BEGIN QUICK SIDEBAR TOGGLER -->
+            <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+            <li class="dropdown dropdown-quick-sidebar-toggler">
+              <a href="javascript:;" class="dropdown-toggle">
+                <i class="icon-logout"></i>
+              </a>
+            </li>
+            <!-- END QUICK SIDEBAR TOGGLER -->
+          </ul>
+        </div>
+        <!-- END TOP NAVIGATION MENU -->
+      </div>
+      <!-- END HEADER INNER -->
+    </div>
+    <!-- END HEADER -->
+    <!-- BEGIN HEADER & CONTENT DIVIDER -->
+    <div class="clearfix"> </div>
+    <!-- END HEADER & CONTENT DIVIDER -->
+    <!-- BEGIN CONTAINER -->
+    <div class="page-container">
+      <!-- BEGIN CONTENT -->
+      <div class="page-content-wrapper">
+        <!-- BEGIN CONTENT BODY -->
+        <div class="page-content">
+          <div class="row">
+            <div class="col-sm-4 sidebar sidebar-hide md-no-padding">
+              <div class="tabbable-custom nav-justified">
+                <ul class="nav nav-tabs nav-justified sidebar-tabs">
+                  <li class="active">
+                    <a data-toggle="tab" href="#tab_1_1_1" aria-expanded="true"> Exchange </a>
+                  </li>
+                  <li class="">
+                    <a data-toggle="tab" href="#tab_1_1_2" aria-expanded="false"> Margin </a>
+                  </li>
+                  <li class="">
+                    <a data-toggle="tab" href="#tab_1_1_3" aria-expanded="false"> Lending </a>
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div id="tab_1_1_1" class="tab-pane active">
+                    <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                    <div class="portlet light padding-none">
+                      <div class="portlet-body">
+                        <div class="table-toolbar margin-none">
+                          <div class="row tab-top">
+                            <div class="col-md-12">
+                              <div class="portlet-body form">
+                                <!-- BEGIN FORM-->
+                                <div class="form-horizontal form-row-seperated inline-block">
+                                  <div class="form-body">
+                                    <div class="form-group padding-none border-none">
+                                      <select class="bs-select input-small form-control">
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- END FORM-->
+                                <div class="show-only inline-block">
+                                  <label><input type="checkbox"> Show</label>
+                                  <label><i class="fa fa-star"></i> only</label>
+                                </div>
+                                <div class="search-field inline-block pull-right">
+                                  <input type="search" placeholder="Search" class="form-control input-sm input-small input-inline" />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- START sidebar-tables TABLE -->
+                        <div class="sidebar-tables">
+                          <table class="table table-font-xs table-striped table-bordered table-hover table-checkable order-column" id="sample_2">
+                            <thead>
+                              <tr>
+                                <th><i class="fa fa-star"></i></th>
+                                <th> Coin </th>
+                                <th> Price </th>
+                                <th> Volume </th>
+                                <th> Change </th>
+                                <th> Name </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                              <tr>
+                                <td><i class="fa fa-star"></i></td>
+                                <td>ETH </td>
+                                <td>0.002454501</td>
+                                <td>469.274 </td>
+                                <td>-2.77 </td>
+                                <td>Ethereum </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!-- END sidebar-tables TABLE -->
+                      </div>
+                    </div>
+                    <!-- END EXAMPLE TABLE PORTLET-->
+                  </div>
+                  <div id="tab_1_1_2" class="tab-pane">
+                    <p> Howdy, I'm in Section 2. </p>
+                    <p> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation. </p>
+                    <p>
+                      <a target="_blank" href="#tab_1_1_2" class="btn green"> Activate this tab via URL </a>
+                    </p>
+                  </div>
+                  <div id="tab_1_1_3" class="tab-pane">
+                    <p> Howdy, I'm in Section 3. </p>
+                    <p> Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat </p>
+                    <p>
+                      <a target="_blank" href="#tab_1_1_3" class="btn yellow"> Activate this tab via URL </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-8 content-area">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="note note-info bg-white">
+                    <h2 class="block">NUBITS EXCHANGE</h2>
+                    <H4>NBT/BTC</H4>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="well nubits-prices">
+                    <p><span>Last price<br><b>0.00045471</b></span><span>24hr High<br><b>0.00045471</b></span></p>
+                    <p><span>24hr Change<br><b class="font-red">-0.50%</b></span><span>24hr Low<br><b>0.00045471</b></span></p>
+                    <p class="text-center"><span>24hr Volume:<b> 21.90287274</b> BTC /<b> 5381.00045471 NBT</b></span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="main-tabs portlet light bordered">
+                <div class="portlet-body">
+                  <ul class="nav nav-tabs">
+                    <li class="active">
+                      <a href="#tab_1_1" data-toggle="tab"> TIMELINE </a>
+                    </li>
+                    <li>
+                      <a href="#tab_1_2" data-toggle="tab"> ORDER BOOK </a>
+                    </li>
+                    <li>
+                      <a href="#tab_1_3" data-toggle="tab"> DISTRIBUTION </a>
+                    </li>
+                    <li>
+                      <a href="#tab_1_4" data-toggle="tab"> WALLET</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content margin-bottom-20">
+                    <div class="tab-pane fade active in" id="tab_1_1">
+                      <img src="assets/images/graph1.jpg" class="img-responsive">
+                    </div>
+                    <div class="tab-pane fade" id="tab_1_2">
+                      <img src="assets/images/graph2.jpg" class="img-responsive">
+                    </div>
+                    <div class="tab-pane fade" id="tab_1_3">
+                      <img src="assets/images/graph3.jpg" class="img-responsive">
+                    </div>
+                    <div class="tab-pane fade" id="tab_1_4">
+                      <div class="row">
+                        <div class="col-md-6 wallet-deposit">
+                          <!-- BEGIN SAMPLE FORM PORTLET-->
+                          <div class="portlet box grey-cararra">
+                            <div class="portlet-title">
+                              <div class="caption"><i class="icon-note"></i> Deposit </div>
+                            </div>
+                            <div class="portlet-body">
+                              <div class="margin-top-30 margin-bottom-40">
+                                <h4 class="bold font-grey-mint"><span>[NBT] NuBits</span><span class="pull-right">107.02691423</span></h4>
+                                <h4 class="bold font-grey-mint"><span>On order:</span><span class="pull-right">219.08952605</span></h4>
+                                <h4 class="bold font-grey-mint"><span>On order:</span><span class="pull-right">1.56746219</span></h4>
+                              </div>
+                              <form role="form">
+                                <div class="row text-center">
+                                  <div class="form-group">
+                                    <label class="col-md-3 col-sm-12 col-xs-3 control-label">Address</label>
+                                    <div class="col-md-9 col-sm-12 col-xs-9">
+                                      <div class="input-group">
+                                        <input type="text" class="form-control" value="QW4HD DQCRG HM64M 6GJRK 8K83T">
+                                        <span class="input-group-btn">
+                                          <button class="btn default" type="button">ADDR</button>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="form-group margin-top-30">
+                                    <button type="submit" class="btn btn-radius green-meadow">Generate New Address</button>
+                                  </div>
+                                </div><!-- /.row -->
+                              </form>
+                            </div>
+                          </div>
+                          <!-- END SAMPLE FORM PORTLET-->
+                        </div>
+                        <div class="col-md-6 wallet-widthdraw">
+                          <!-- BEGIN SAMPLE FORM PORTLET-->
+                          <div class="portlet box grey-cararra margin-none">
+                            <div class="portlet-title">
+                              <div class="caption"><i class="icon-share-alt"></i> Withdraw </div>
+                              <div class="tools">
+                                <span class="font-dark">Total: <b>0</b> NBT</span>
+                              </div>
+                            </div>
+                            <div class="portlet-body">
+                              <form role="form" class="margin-top-30">
+                                <div class="row">
+                                  <div class="form-group">
+                                    <label class="col-md-3 col-sm-12 col-xs-3 control-label">Address</label>
+                                    <div class="col-md-9 col-sm-12 col-xs-9">
+                                      <div class="input-group">
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-btn">
+                                          <button class="btn default" type="button">ADDR</button>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <label class="col-md-3 col-sm-12 col-xs-3 control-label">Quantity</label>
+                                    <div class="col-md-9 col-sm-12 col-xs-9">
+                                      <div class="input-group">
+                                        <span class="input-group-btn">
+                                          <button class="btn blue-madison" type="button">Max</button>
+                                        </span>
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-btn">
+                                          <button class="btn default" type="button">NBT</button>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <label class="col-md-3 col-sm-12 col-xs-3 control-label">Transaction Fee</label>
+                                    <div class="col-md-9 col-sm-12 col-xs-9">
+                                      <div class="input-group">
+                                        <input type="text" class="form-control" disabled>
+                                        <span class="input-group-btn">
+                                          <button class="btn default" type="button">NBT</button>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <label class="col-md-3 col-sm-12 col-xs-3 control-label">Withdraw</label>
+                                    <div class="col-md-9 col-sm-12 col-xs-9">
+                                      <div class="input-group">
+                                        <input type="text" class="form-control" disabled>
+                                        <span class="input-group-btn">
+                                          <button class="btn default" type="button">NBT</button>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div><!-- /.row -->
+                                <div class="note note-danger">
+                                  <p class="block">Please verify your withdrawal address. We cannot refund or incorrect withdrawal.</p>
+                                </div>
+                                <div class="form-group text-center">
+                                  <button type="submit" class="btn btn-radius green-meadow">Withdrawal</button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                          <!-- END SAMPLE FORM PORTLET-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row clearfix"></div>
+
+          <div class="row">
+            <div class="col-sm-4 sidebar md-no-padding">
+              <div class="portlet box blue-chambray border-none margin-account">
+                <div class="portlet-title">
+                  <div class="caption">MARGIN ACCOUNT</div>
+                </div>
+                <div class="portlet-body padding-none">
+                  <table class="table table-striped table-bordered table-hover">
+                  <tbody>
+                    <tr>
+                      <td>Total Margin Value </td>
+                      <td>0.00000000 BTC</td>
+                    </tr>
+                    <tr>
+                      <td>Unrealized P/L </td>
+                      <td>0.00000000 BTC</td>
+                    </tr>
+                    <tr>
+                      <td>Unrealized Lending Fees </td>
+                      <td>0.00000000 BTC</td>
+                    </tr>
+                    <tr>
+                      <td>Net Value </td>
+                      <td>0.00000000 BTC</td>
+                    </tr>
+                    <tr>
+                      <td>Total Borrowed Value </td>
+                      <td>0.00000000 BTC</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr><td colspan="2">Margin (2.5x Leverage)</td></tr>
+                    <tr><td colspan="2">Maintenance <b>20%</b> <span class="pull-right">Initial <b>40%</b></span></td></tr>
+                    <tr class="bg-default text-center"><td colspan="2">Current Margin - N/A</td></tr>
+                  </tfoot>
+                </table>
+                </div>
+              </div>
+
+              <div class="portlet box blue-chambray border-none positions">
+                <div class="portlet-title">
+                  <div class="caption">POSITIONS</div>
+                </div>
+                <div class="portlet-body padding-none">
+                  <table class="table table-striped table-bordered table-hover table-checkable margin-none">
+                  <thead>
+                    <tr>
+                      <th> Coin </th>
+                      <th> Position </th>
+                      <th> Amount </th>
+                      <th> P/L (BTC) </th>
+                      <th> Liq. Price </th>
+                    </tr>
+                  </thead>
+                  <tbody class="text-right">
+                    <tr>
+                      <td colspan="5">You have no open positions.</td>
+                    </tr>
+                    <!--<tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>-->
+                  </tbody>
+                </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-8">
+              <div class="row buy-stop-sell">
+                <div class="col-md-4 col-xs-6 buy-dash">
+                  <!-- BEGIN SAMPLE FORM PORTLET-->
+                  <div class="portlet box blue-chambray">
+                    <div class="portlet-title">
+                      <div class="caption">
+                        <div class="tools pull-right">
+                          <a class="small font-white" href=""><small>Deposit BTC</small></a> | 
+                          <a class="small font-white" href=""><small>Transfer</small></a>
+                        </div>
+                        <div class="margin-bottom-10">BUY DASH</div>
+                        <p class="small">Tradable balance: <span class="pull-right">0.00000000 BTC</span></p>
+                        <p class="small">Lowest Bid: <span class="pull-right">0.00000000 BTC</span></p>
+                      </div>
+                    </div>
+                    <div class="portlet-body">
+                      <form role="form">
+                        <div class="row buy-nbt">
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Price</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn blue-hoki">BTC</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Amount</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn blue-hoki">DASH</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Loan Rate</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn blue-hoki">%</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <hr>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Total</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn blue-hoki">DASH</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">0.2% Fee</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn blue-hoki">NBT</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="text-right col-xs-12">
+                            <button class="btn btn-radius green-meadow">Margin Buy</button>
+                          </div>
+                        </div><!-- /.row -->
+                      </form>
+                    </div>
+                  </div>
+                  <!-- END SAMPLE FORM PORTLET-->
+                </div>
+                <div class="col-md-4 col-xs-6 stop-limit">
+                  <!-- BEGIN SAMPLE FORM PORTLET-->
+                  <div class="portlet box blue-chambray">
+                    <div class="portlet-title">
+                      <div class="caption">
+                        <div class="tools pull-right">
+                          <a class="small font-white" href=""><small>What's this?</small></a>
+                        </div>
+                        <div class="margin-bottom-10">STOP LIMIT</div>
+                        <p class="small">Tradable balance: <span class="pull-right">0.00000000 BTC</span></p>
+                        <p class="small">Tradable balance: <span class="pull-right">0.00000000 DASH</span></p>
+                      </div>
+                    </div>
+                    <div class="portlet-body">
+                      <form role="form">
+                        <div class="row buy-nbt">
+                          <div class="col-xs-12 margin-bottom-10">
+                            <i class="fa fa-warning"></i>
+                            <small>Stop Limit margin orders are not guaranteed to trigger at the amount specified.</small>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Stop</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn blue-hoki btn-outline">BTC</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Limit</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn blue-hoki btn-outline">BTC</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Amount</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn blue-hoki btn-outline">NBT</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <hr>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Total</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn blue-hoki btn-outline">BTC</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="text-right col-xs-12">
+                            <button class="btn btn-radius green-meadow">Buy</button>
+                            <button class="btn btn-radius green-meadow">Sell</button>
+                          </div>
+                        </div><!-- /.row -->
+                      </form>
+                    </div>
+                  </div>
+                  <!-- END SAMPLE FORM PORTLET-->
+                </div>
+                <div class="col-md-4 col-xs-6 sell-dash">
+                  <!-- BEGIN SAMPLE FORM PORTLET-->
+                  <div class="portlet box blue-chambray">
+                    <div class="portlet-title">
+                      <div class="caption">
+                        <div class="tools pull-right">
+                          <a class="small font-white" href=""><small>Deposit BTC</small></a> | 
+                          <a class="small font-white" href=""><small>Transfer</small></a>
+                        </div>
+                        <div class="margin-bottom-10">SELL DASH</div>
+                        <p class="small">Tradable balance: <span class="pull-right">0.00000000 DASH</span></p>
+                        <p class="small">Highest Bid: <span class="pull-right">0.00000000 BTC</span></p>
+                      </div>
+                    </div>
+                    <div class="portlet-body">
+                      <form role="form">
+                        <div class="row buy-nbt">
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Price</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn default blue-hoki-stripe">BTC</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Amount</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn default blue-hoki-stripe">NBT</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Loan Rate</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn default blue-hoki-stripe">%</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <hr>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">Total</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn default blue-hoki-stripe">BTC</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="col-md-3 col-sm-12 col-xs-3 control-label">0.2% Fee</label>
+                            <div class="col-md-9 col-sm-12 col-xs-9">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <div class="btn default blue-hoki-stripe">NBT</div>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="text-right col-xs-12">
+                            <button class="btn btn-radius green-meadow">Margin Buy</button>
+                          </div>
+                        </div><!-- /.row -->
+                      </form>
+                    </div>
+                  </div>
+                  <!-- END SAMPLE FORM PORTLET-->
+                </div>
+              </div>
+
+              <div class="row sell-buy-orders">
+                <div class="col-md-6">
+                  <!-- BEGIN SAMPLE TABLE PORTLET-->
+                  <div class="portlet box blue-chambray">
+                    <div class="portlet-title">
+                      <div class="caption">SELL ORDERS </div>
+                      <div class="tools">
+                        <span>Total: <b>46695.47580252</b> NBT</span>
+                      </div>
+                    </div>
+                    <div class="portlet-body flip-scroll padding-none">
+                      <div  class="scroller wt-scroller">
+                        <table class="table table-bordered table-striped table-hover table-condensed flip-content">
+                          <thead class="flip-content">
+                            <tr>
+                              <th> Price </th>
+                              <th> NBT </th>
+                              <th> BTC </th>
+                              <th> Sum(BTC) </th>
+                            </tr>
+                          </thead>
+                          <tbody class="text-right">
+                            <tr>
+                              <td> $1.39 </td>
+                              <td> $1.39 </td>
+                              <td> $1.39 </td>
+                              <td> 9,395 </td>
+                            </tr>
+                            <tr>
+                              <td> $1.14 </td>
+                              <td> $1.15 </td>
+                              <td> $1.13 </td>
+                              <td> 56,431 </td>
+                            </tr>
+                            <tr>
+                              <td> $4.01 </td>
+                              <td> $4.05 </td>
+                              <td> $4.00 </td>
+                              <td> 90,641 </td>
+                            </tr>
+                            <tr>
+                              <td> $2.98 </td>
+                              <td> $3.00 </td>
+                              <td> $2.96 </td>
+                              <td> 862,518 </td>
+                            </tr>
+                            <tr>
+                              <td> $1.92 </td>
+                              <td> $1.93 </td>
+                              <td> $1.90 </td>
+                              <td> 595,701 </td>
+                            </tr>
+                            <tr>
+                              <td> $0.76 </td>
+                              <td> $0.77 </td>
+                              <td> $0.76 </td>
+                              <td> 54,567 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.70 </td>
+                              <td> $3.72 </td>
+                              <td> $3.68 </td>
+                              <td> 191,373 </td>
+                            </tr>
+                            <tr>
+                              <td> $0.73 </td>
+                              <td> $0.74 </td>
+                              <td> $0.72 </td>
+                              <td> 8,602,291 </td>
+                            </tr>
+                            <tr>
+                              <td> $7.82 </td>
+                              <td> $7.82 </td>
+                              <td> $7.81 </td>
+                              <td> 148 </td>
+                            </tr>
+                            <tr>
+                              <td> $13.83 </td>
+                              <td> $13.83 </td>
+                              <td> $13.67 </td>
+                              <td> 846,403 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.11 </td>
+                              <td> $3.22 </td>
+                              <td> $3.10 </td>
+                              <td> 5,416,303 </td>
+                            </tr>
+                            <tr>
+                              <td> $13.83 </td>
+                              <td> $13.83 </td>
+                              <td> $13.67 </td>
+                              <td> 846,403 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.11 </td>
+                              <td> $3.22 </td>
+                              <td> $3.10 </td>
+                              <td> 5,416,303 </td>
+                            </tr>
+                            <tr>
+                              <td> $13.83 </td>
+                              <td> $13.83 </td>
+                              <td> $13.67 </td>
+                              <td> 846,403 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.11 </td>
+                              <td> $3.22 </td>
+                              <td> $3.10 </td>
+                              <td> 5,416,303 </td>
+                            </tr>
+                            <tr>
+                              <td> $13.83 </td>
+                              <td> $13.83 </td>
+                              <td> $13.67 </td>
+                              <td> 846,403 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.11 </td>
+                              <td> $3.22 </td>
+                              <td> $3.10 </td>
+                              <td> 5,416,303 </td>
+                            </tr>
+                            <tr>
+                              <td> $13.83 </td>
+                              <td> $13.83 </td>
+                              <td> $13.67 </td>
+                              <td> 846,403 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.11 </td>
+                              <td> $3.22 </td>
+                              <td> $3.10 </td>
+                              <td> 5,416,303 </td>
+                            </tr>
+                            <tr>
+                              <td> $13.83 </td>
+                              <td> $13.83 </td>
+                              <td> $13.67 </td>
+                              <td> 846,403 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.11 </td>
+                              <td> $3.22 </td>
+                              <td> $3.10 </td>
+                              <td> 5,416,303 </td>
+                            </tr>
+                            <tr>
+                              <td> $13.83 </td>
+                              <td> $13.83 </td>
+                              <td> $13.67 </td>
+                              <td> 846,403 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.11 </td>
+                              <td> $3.22 </td>
+                              <td> $3.10 </td>
+                              <td> 5,416,303 </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END SAMPLE TABLE PORTLET-->
+                </div>
+                <div class="col-md-6">
+                  <!-- BEGIN SAMPLE TABLE PORTLET-->
+                  <div class="portlet box blue-chambray">
+                    <div class="portlet-title">
+                      <div class="caption">BUY ORDERS </div>
+                      <div class="tools">
+                        <span>Total: <b>46695.47580252</b> NBT</span>
+                      </div>
+                    </div>
+                    <div class="portlet-body flip-scroll padding-none">
+                      <div  class="scroller wt-scroller">
+                        <table class="table table-bordered table-striped table-hover table-condensed flip-content" >
+                          <thead class="flip-content">
+                            <tr>
+                              <th> Price </th>
+                              <th> NBT </th>
+                              <th> BTC </th>
+                              <th> Sum(BTC) </th>
+                            </tr>
+                          </thead>
+                          <tbody class="text-right">
+                            <tr>
+                              <td> $1.39 </td>
+                              <td> $1.39 </td>
+                              <td> $1.39 </td>
+                              <td> 9,395 </td>
+                            </tr>
+                            <tr>
+                              <td> $1.14 </td>
+                              <td> $1.15 </td>
+                              <td> $1.13 </td>
+                              <td> 56,431 </td>
+                            </tr>
+                            <tr>
+                              <td> $4.01 </td>
+                              <td> $4.05 </td>
+                              <td> $4.00 </td>
+                              <td> 90,641 </td>
+                            </tr>
+                            <tr>
+                              <td> $2.98 </td>
+                              <td> $3.00 </td>
+                              <td> $2.96 </td>
+                              <td> 862,518 </td>
+                            </tr>
+                            <tr>
+                              <td> $1.92 </td>
+                              <td> $1.93 </td>
+                              <td> $1.90 </td>
+                              <td> 595,701 </td>
+                            </tr>
+                            <tr>
+                              <td> $0.76 </td>
+                              <td> $0.77 </td>
+                              <td> $0.76 </td>
+                              <td> 54,567 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.70 </td>
+                              <td> $3.72 </td>
+                              <td> $3.68 </td>
+                              <td> 191,373 </td>
+                            </tr>
+                            <tr>
+                              <td> $0.73 </td>
+                              <td> $0.74 </td>
+                              <td> $0.72 </td>
+                              <td> 8,602,291 </td>
+                            </tr>
+                            <tr>
+                              <td> $7.82 </td>
+                              <td> $7.82 </td>
+                              <td> $7.81 </td>
+                              <td> 148 </td>
+                            </tr>
+                            <tr>
+                              <td> $13.83 </td>
+                              <td> $13.83 </td>
+                              <td> $13.67 </td>
+                              <td> 846,403 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.11 </td>
+                              <td> $3.22 </td>
+                              <td> $3.10 </td>
+                              <td> 5,416,303 </td>
+                            </tr>
+                            <tr>
+                              <td> $4.01 </td>
+                              <td> $4.05 </td>
+                              <td> $4.00 </td>
+                              <td> 90,641 </td>
+                            </tr>
+                            <tr>
+                              <td> $2.98 </td>
+                              <td> $3.00 </td>
+                              <td> $2.96 </td>
+                              <td> 862,518 </td>
+                            </tr>
+                            <tr>
+                              <td> $1.92 </td>
+                              <td> $1.93 </td>
+                              <td> $1.90 </td>
+                              <td> 595,701 </td>
+                            </tr>
+                            <tr>
+                              <td> $0.76 </td>
+                              <td> $0.77 </td>
+                              <td> $0.76 </td>
+                              <td> 54,567 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.70 </td>
+                              <td> $3.72 </td>
+                              <td> $3.68 </td>
+                              <td> 191,373 </td>
+                            </tr>
+                            <tr>
+                              <td> $0.73 </td>
+                              <td> $0.74 </td>
+                              <td> $0.72 </td>
+                              <td> 8,602,291 </td>
+                            </tr>
+                            <tr>
+                              <td> $7.82 </td>
+                              <td> $7.82 </td>
+                              <td> $7.81 </td>
+                              <td> 148 </td>
+                            </tr>
+                            <tr>
+                              <td> $13.83 </td>
+                              <td> $13.83 </td>
+                              <td> $13.67 </td>
+                              <td> 846,403 </td>
+                            </tr>
+                            <tr>
+                              <td> $3.11 </td>
+                              <td> $3.22 </td>
+                              <td> $3.10 </td>
+                              <td> 5,416,303 </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END SAMPLE TABLE PORTLET-->
+                </div>
+              </div>
+
+              <div class="row my-open-orders">
+                <div class="col-xs-12">
+                  <!-- BEGIN SAMPLE TABLE PORTLET-->
+                  <div class="portlet box blue-chambray">
+                    <div class="portlet-title">
+                      <div class="caption">MY OPEN ORDERS </div>
+                      <div class="tools">
+                        <span>Total: <b>46695.47580252</b> NBT</span>
+                        <a href="javascript:;" class="collapse"> </a>
+                      </div>
+                    </div>
+                    <div class="portlet-body flip-scroll padding-none">
+                      <div  class="scroller wt-scroller">
+                        <table class="table table-bordered table-striped table-hover table-condensed flip-content" >
+                          <thead class="flip-content bg-default">
+                            <tr>
+                              <th> Type </th>
+                              <th> Price(BTC) </th>
+                              <th> Amount(BTS) </th>
+                              <th> Total(BTC) </th>
+                              <th> Rate/Stop </th>
+                              <th> Date </th>
+                              <th> Action </th>
+                            </tr>
+                          </thead>
+                          <tbody class="text-right">
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $1.39 </td>
+                              <td> $1.39 </td>
+                              <td> $1.39 </td>
+                              <td> $1.39 </td>
+                              <td> $1.39 </td>
+                              <td> 9,395 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $1.15 </td>
+                              <td> $1.13 </td>
+                              <td> $1.13 </td>
+                              <td> $1.13 </td>
+                              <td> $1.13 </td>
+                              <td> 56,431 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $4.05 </td>
+                              <td> $4.00 </td>
+                              <td> $4.00 </td>
+                              <td> $4.00 </td>
+                              <td> $4.00 </td>
+                              <td> 90,641 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $3.00 </td>
+                              <td> $2.96 </td>
+                              <td> $2.96 </td>
+                              <td> $2.96 </td>
+                              <td> $2.96 </td>
+                              <td> 862,518 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $1.93 </td>
+                              <td> $1.90 </td>
+                              <td> $1.90 </td>
+                              <td> $1.90 </td>
+                              <td> $1.90 </td>
+                              <td> 595,701 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $0.77 </td>
+                              <td> $0.76 </td>
+                              <td> $0.76 </td>
+                              <td> $0.76 </td>
+                              <td> $0.76 </td>
+                              <td> 54,567 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $3.72 </td>
+                              <td> $3.68 </td>
+                              <td> $3.68 </td>
+                              <td> $3.68 </td>
+                              <td> $3.68 </td>
+                              <td> 191,373 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $0.74 </td>
+                              <td> $0.72 </td>
+                              <td> $0.72 </td>
+                              <td> $0.72 </td>
+                              <td> $0.72 </td>
+                              <td> 8,602,291 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $7.82 </td>
+                              <td> $7.82 </td>
+                              <td> $7.82 </td>
+                              <td> $7.82 </td>
+                              <td> $7.81 </td>
+                              <td> 148 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $13.83 </td>
+                              <td> $13.67 </td>
+                              <td> $13.67 </td>
+                              <td> $13.67 </td>
+                              <td> $13.67 </td>
+                              <td> 846,403 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $3.22 </td>
+                              <td> $3.10 </td>
+                              <td> $3.10 </td>
+                              <td> $3.10 </td>
+                              <td> $3.10 </td>
+                              <td> 5,416,303 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $1.93 </td>
+                              <td> $1.90 </td>
+                              <td> $1.90 </td>
+                              <td> $1.90 </td>
+                              <td> $1.90 </td>
+                              <td> 595,701 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $0.77 </td>
+                              <td> $0.76 </td>
+                              <td> $0.76 </td>
+                              <td> $0.76 </td>
+                              <td> $0.76 </td>
+                              <td> 54,567 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $3.72 </td>
+                              <td> $3.68 </td>
+                              <td> $3.68 </td>
+                              <td> $3.68 </td>
+                              <td> $3.68 </td>
+                              <td> 191,373 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $0.74 </td>
+                              <td> $0.72 </td>
+                              <td> $0.72 </td>
+                              <td> $0.72 </td>
+                              <td> $0.72 </td>
+                              <td> 8,602,291 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $7.82 </td>
+                              <td> $7.82 </td>
+                              <td> $7.82 </td>
+                              <td> $7.82 </td>
+                              <td> $7.81 </td>
+                              <td> 148 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $13.83 </td>
+                              <td> $13.67 </td>
+                              <td> $13.67 </td>
+                              <td> $13.67 </td>
+                              <td> $13.67 </td>
+                              <td> 846,403 </td>
+                            </tr>
+                            <tr>
+                              <td class="font-red"> Sell </td>
+                              <td> $3.22 </td>
+                              <td> $3.10 </td>
+                              <td> $3.10 </td>
+                              <td> $3.10 </td>
+                              <td> $3.10 </td>
+                              <td> 5,416,303 </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END SAMPLE TABLE PORTLET-->
+                </div>
+              </div>
+
+              <div class="trade-history">
+                <!-- BEGIN TAB PORTLET-->
+                <div class="portlet light padding-none margin-none">
+                  <div class="portlet-title tabbable-line bg-blue-chambray margin-none">
+                    <div class="caption">
+                      <i class="icon-share"></i>
+                      <span class="caption-subject bold uppercase">TRADE HISTORY</span>
+                    </div>
+                    <ul class="nav nav-tabs">
+                      <li>
+                        <a href="#portlet_tab2" data-toggle="tab"> MARKET TRADES </a>
+                      </li>
+                      <li class="active">
+                        <a href="#portlet_tab1" data-toggle="tab"> MY TRADES </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="portlet-body padding-none">
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="portlet_tab1">
+                        <div class="portlet-body flip-scroll padding-none">
+                          <div  class="scroller wt-scroller">
+                            <table class="table table-bordered table-striped table-hover table-condensed flip-content" >
+                              <thead class="flip-content bg-default">
+                                <tr>
+                                  <th> Date </th>
+                                  <th> Type </th>
+                                  <th> Price(BTC) </th>
+                                  <th> Amount(BTS) </th>
+                                  <th> Total(BTC) </th>
+                                </tr>
+                              </thead>
+                              <tbody class="text-right">
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $1.39 </td>
+                                  <td> $1.39 </td>
+                                  <td> $1.39 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $1.13 </td>
+                                  <td> $1.13 </td>
+                                  <td> $1.13 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $4.00 </td>
+                                  <td> $4.00 </td>
+                                  <td> $4.00 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $2.96 </td>
+                                  <td> $2.96 </td>
+                                  <td> $2.96 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $1.90 </td>
+                                  <td> $1.90 </td>
+                                  <td> $1.90 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $0.76 </td>
+                                  <td> $0.76 </td>
+                                  <td> $0.76 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $3.68 </td>
+                                  <td> $3.68 </td>
+                                  <td> $3.68 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $0.72 </td>
+                                  <td> $0.72 </td>
+                                  <td> $0.72 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $7.82 </td>
+                                  <td> $7.82 </td>
+                                  <td> $7.82 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $13.67 </td>
+                                  <td> $13.67 </td>
+                                  <td> $13.67 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $3.10 </td>
+                                  <td> $3.10 </td>
+                                  <td> $3.10 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $1.90 </td>
+                                  <td> $1.90 </td>
+                                  <td> $1.90 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $0.76 </td>
+                                  <td> $0.76 </td>
+                                  <td> $0.76 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $3.68 </td>
+                                  <td> $3.68 </td>
+                                  <td> $3.68 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $0.72 </td>
+                                  <td> $0.72 </td>
+                                  <td> $0.72 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $7.82 </td>
+                                  <td> $7.82 </td>
+                                  <td> $7.82 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $13.67 </td>
+                                  <td> $13.67 </td>
+                                  <td> $13.67 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $3.10 </td>
+                                  <td> $3.10 </td>
+                                  <td> $3.10 </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="portlet_tab2">
+                        <div class="portlet-body flip-scroll padding-none">
+                          <div  class="scroller wt-scroller">
+                            <table class="table table-bordered table-striped table-hover table-condensed flip-content" >
+                              <thead class="flip-content bg-default">
+                                <tr>
+                                  <th> Date </th>
+                                  <th> Type </th>
+                                  <th> Price(BTC) </th>
+                                  <th> Amount(BTS) </th>
+                                  <th> Total(BTC) </th>
+                                </tr>
+                              </thead>
+                              <tbody class="text-right">
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $3.10 </td>
+                                  <td> $3.10 </td>
+                                  <td> $3.10 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $1.90 </td>
+                                  <td> $1.90 </td>
+                                  <td> $1.90 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $0.76 </td>
+                                  <td> $0.76 </td>
+                                  <td> $0.76 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $3.68 </td>
+                                  <td> $3.68 </td>
+                                  <td> $3.68 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $0.72 </td>
+                                  <td> $0.72 </td>
+                                  <td> $0.72 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $7.82 </td>
+                                  <td> $7.82 </td>
+                                  <td> $7.82 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $13.67 </td>
+                                  <td> $13.67 </td>
+                                  <td> $13.67 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $3.10 </td>
+                                  <td> $3.10 </td>
+                                  <td> $3.10 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $1.39 </td>
+                                  <td> $1.39 </td>
+                                  <td> $1.39 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $1.13 </td>
+                                  <td> $1.13 </td>
+                                  <td> $1.13 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $4.00 </td>
+                                  <td> $4.00 </td>
+                                  <td> $4.00 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $2.96 </td>
+                                  <td> $2.96 </td>
+                                  <td> $2.96 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $1.90 </td>
+                                  <td> $1.90 </td>
+                                  <td> $1.90 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $0.76 </td>
+                                  <td> $0.76 </td>
+                                  <td> $0.76 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $3.68 </td>
+                                  <td> $3.68 </td>
+                                  <td> $3.68 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-red"> Sell </td>
+                                  <td> $0.72 </td>
+                                  <td> $0.72 </td>
+                                  <td> $0.72 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $7.82 </td>
+                                  <td> $7.82 </td>
+                                  <td> $7.82 </td>
+                                </tr>
+                                <tr>
+                                  <td> 26-03-03 23:28:39 </td>
+                                  <td class="font-green-meadow"> Sell </td>
+                                  <td> $13.67 </td>
+                                  <td> $13.67 </td>
+                                  <td> $13.67 </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END TAB PORTLET-->
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- END CONTENT BODY -->
+      </div>
+      <!-- END CONTENT -->
+      <!-- BEGIN QUICK SIDEBAR -->
+      <a href="javascript:;" class="page-quick-sidebar-toggler">
+        <i class="icon-login"></i>
+      </a>
+      <div class="page-quick-sidebar-wrapper" data-close-on-body-click="false">
+        <div class="page-quick-sidebar">
+          <div class="tab-content">
+            <h3 class="list-heading margin-top-40 margin-bottom-40">Login Area</h3>
+            <form action="#" class="col-xs-12">
+              <div class="form-group">
+                <label>Username</label>
+                <div class="input-group">
+                  <input type="text" placeholder="Aqeel" class="form-control dark bg-blue-ebonyclay">
+                  <span class="input-group-addon bg-blue-chambray border-none"><i class="icon-user"></i></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <div class="input-group">
+                  <input type="password" placeholder="*******" class="form-control dark bg-blue-ebonyclay">
+                  <span class="input-group-addon bg-blue-chambray border-none"><i class="icon-eye"></i></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <button type="button" class="btn blue-dark font-grey-salt">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- END QUICK SIDEBAR -->
+      <div class="btn-sidebar-toggle display-none font-blue-hoki"><i class="fa fa-exchange"></i> </div>
+    </div>
+    <!-- END CONTAINER -->
+    <!--[if lt IE 9]>
+<script src="assets/global/plugins/respond.min.js"></script>
+<script src="assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+    <!-- BEGIN CORE PLUGINS -->
+    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/js.cookie.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN THEME GLOBAL SCRIPTS -->
+    <script src="assets/js/app.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js" type="text/javascript"></script>
+    <script src="assets/js/components-bootstrap-select.min.js" type="text/javascript"></script>
+
+    <script src="assets/js/datatables.min.js" type="text/javascript"></script>
+    <script src="assets/js/datatables.bootstrap.js" type="text/javascript"></script>
+    <script src="assets/js/table-datatables-managed.min.js" type="text/javascript"></script>
+    <!-- END THEME GLOBAL SCRIPTS -->
+    <!-- BEGIN THEME LAYOUT SCRIPTS -->
+    <script src="assets/js/layout.min.js" type="text/javascript"></script>
+    <script src="assets/js/demo.min.js" type="text/javascript"></script>
+    <script src="assets/js/quick-sidebar.min.js" type="text/javascript"></script>
+    <!-- END THEME LAYOUT SCRIPTS -->
+    <script src="wemblo.js" type="text/javascript"></script>
+  </body>
+
+</html>

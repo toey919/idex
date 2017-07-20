@@ -1,0 +1,36 @@
+@import "../../style/mixins.less";
+
+.data-row-enter {
+	.darken-row();
+}
+
+.data-row-enter.data-row-enter-active {
+	.regular-row();
+	td {
+		.transition(@row-enter-duration, ease);
+	}
+}
+
+.data-row-leave {
+	.regular-row();
+}
+
+.data-row-leave.data-row-leave-active {
+	.darken-row();
+	td {
+		.transition(@row-leave-duration, ease);
+	}
+}
+.hidden {
+	display: none !important;
+}
+
+div.input-group {
+	.btn,
+	input.form-control {
+		z-index: inherit !important;
+	}
+}
+body {
+	overflow-x: hidden !important;
+}

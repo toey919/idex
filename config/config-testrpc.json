@@ -1,0 +1,20 @@
+"use strict";
+
+var assign = require('object-assign');
+
+module.exports = assign(require('./client'), {
+  address: require('./address')
+}, {
+  rpc: require('./rpc-testrpc'),
+  web: {
+    port: 8081,
+    host: "0.0.0.0"
+  },
+  mysql: {
+    host: "localhost",
+    user: "root",
+    password: "password",
+    database: "idex"
+  },
+  jwt: "+_-1~++=3789D3Central1Z3dCAP1tal)*^!%*#^^"
+});

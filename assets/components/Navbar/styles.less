@@ -1,0 +1,72 @@
+@import "../../style/variables.less";
+@active-button-color: lighten(@header-color, 15%);
+
+.active-button-ruleset() {
+	background-color: @active-button-color !important;
+	border-color: @active-button-color !important;
+}
+
+.dc-logo {
+	display: inline-block;
+	position: relative;
+	top: 2px;
+}
+
+.page-logo {
+	a {
+		span {
+			margin-left: 10px;
+			position: relative;
+			top: -5px;
+			color: white;
+			font-size: 2.55em;
+			text-decoration: none;
+			&:hover {
+				text-decoration: none;
+				color: white;
+			}
+		}
+	}
+}
+
+.logo-new {
+	margin-right: 8px;
+	&::after {
+		content: url('../../images/logo-new.png');
+	}
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+}
+
+.preserve-vendor-dropdown {
+	.btn-group {
+		height: 100%;
+		border-color: inherit;
+		button {
+			padding: 14px 6px 10px 8px !important;
+			a {
+				color: #c6cfda;
+				text-decoration: none;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+			background: none;
+			& > .caret {
+				display: none;
+			}
+		}
+	}
+	.open > .btn-default.dropdown-toggle {
+		.active-button-ruleset();
+	}
+	.btn {
+		&.active,
+		&:active,
+		&:hover {
+			.active-button-ruleset();
+		}
+		border: none !important;
+	}
+}

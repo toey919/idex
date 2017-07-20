@@ -1,0 +1,35 @@
+@import "../../style/mixins.less";
+
+@enter-duration: 500ms;
+@leave-duration: 300ms;
+
+tr > td.trades-row-none {
+  color: gray;
+  border: none;
+}
+
+.my-trade-row-enter {
+  .darken-row();
+}
+
+.my-trade-row-enter.my-trade-row-enter-active {
+  .regular-row();
+  td { 
+    .transition(@enter-duration, ease);
+  }
+}
+
+.table > tbody + tbody.my-trades {
+  border-top: inherit !important;
+}
+
+.my-trade-row-leave {
+  .regular-row();
+}
+
+.my-trade-row-leave.my-trade-row-leave-active {
+  .darken-row();
+  td {
+    .transition(@leave-duration, ease);
+  }
+}

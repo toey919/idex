@@ -1,0 +1,31 @@
+@import "../../style/mixins.less";
+
+@enter-duration: 500ms;
+@leave-duration: 300ms;
+
+tr > td.order-row-none {
+  color: gray;
+  border: none;
+}
+
+.order-row-enter {
+  .darken-row();
+}
+
+.order-row-enter.order-row-enter-active {
+  .regular-row();
+  td { 
+    .transition(@enter-duration, ease);
+  }
+}
+
+.order-row-leave {
+  .regular-row();
+}
+
+.order-row-leave.order-row-leave-active {
+  .darken-row();
+  td {
+    .transition(@leave-duration, ease);
+  }
+}

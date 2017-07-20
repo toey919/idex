@@ -1,0 +1,32 @@
+@import "../../style/mixins.less";
+
+.buy-button {
+  .panel-button();
+}
+
+.buy-button-container {
+  .panel-button-container();
+  padding: 0px 10px;
+}
+
+.no-disabled-fade[disabled] {
+  opacity: 1 !important;
+  filter: alpha(opacity=1) !important;
+}
+
+.panel-enter {
+  display: none;
+}
+
+.panel-enter.panel-enter-active {
+  transition: display 250ms ease-in;
+}
+
+.panel-leave {
+  display: block;
+}
+
+.panel-leave.panel-leave-active {
+  display: none;
+  transition: opacity 250ms ease-in;
+}

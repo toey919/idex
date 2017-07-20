@@ -1,0 +1,51 @@
+@import "./variables.less";
+@import "./elements.less";
+
+.panel-button-container {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.panel-button {
+	background-color: @button-color;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	padding: 0px 10px;
+	&:hover {
+		color: black;
+	}
+}
+
+.navbar-button-active {
+	background-color: lighten(@header-color, 15%);
+}
+
+.noselect() {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	-khtml-user-select: none; /* Konqueror */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently */
+}
+
+.mobile(@rules) {
+	@media screen and (device-width: 360px) {
+		@rules ();
+	}
+}
+
+.darken-row() {
+	td {
+		background-color: @data-row-highlight;
+	}
+}
+
+.regular-row() {
+	td {
+		background-color: white;
+	}
+}

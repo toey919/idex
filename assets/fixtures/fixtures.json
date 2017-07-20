@@ -1,0 +1,11 @@
+{
+  "ethereumPanelTimeout": 7000,
+  "rationalPrecision": 8,
+  "getAccountsTimeout": 6000,
+  "pendingExpiration": 300000,
+  "pollTimeout": 45000,
+  "retryTimeout": 8000,
+  "syncChunkSize": 100,
+  "pingTimeout": 3000,
+  "blockPollInterval": 5000
+}

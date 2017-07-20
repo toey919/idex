@@ -1,0 +1,50 @@
+{
+ "USD.DC": [
+  "1ST",
+  "ARC",
+  "BTC.DC",
+  "DGD",
+  "DVIP",
+  "ETH",
+  "GNTW",
+  "HKG",
+  "ICN",
+  "MKR",
+  "NXC",
+  "PLU",
+  "REP",
+  "SNGLS",
+  "VSL"
+ ],
+ "BTC.DC": [
+  "1ST",
+  "ARC",
+  "DGD",
+  "DVIP",
+  "ETH",
+  "GNTW",
+  "HKG",
+  "ICN",
+  "MKR",
+  "NXC",
+  "PLU",
+  "REP",
+  "SNGLS",
+  "VSL"
+ ],
+ "ETH": [
+  "1ST",
+  "ARC",
+  "DGD",
+  "DVIP",
+  "GNTW",
+  "HKG",
+  "ICN",
+  "MKR",
+  "NXC",
+  "PLU",
+  "REP",
+  "SNGLS",
+  "VSL"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "USD.DC": [
+  "ETH",
+  "BTC.DC",
+  "REP"
+ ],
+ "BTC.DC": [
+  "ETH",
+  "REP"
+ ],
+ "ETH": [
+  "REP"
+ ]
+}
